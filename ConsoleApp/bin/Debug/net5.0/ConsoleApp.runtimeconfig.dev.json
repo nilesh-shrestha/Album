@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\minions\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\minions\\.nuget\\packages"
+    ]
+  }
+}

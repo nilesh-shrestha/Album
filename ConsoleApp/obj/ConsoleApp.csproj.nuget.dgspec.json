@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\ConsoleApp\\ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\ConsoleApp\\ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\ConsoleApp\\ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\ConsoleApp\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\minions\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minions\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Contex\\Contex.csproj": {
+                "projectPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Contex\\Contex.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Contex\\Contex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Contex\\Contex.csproj",
+        "projectName": "Contex",
+        "projectPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Contex\\Contex.csproj",
+        "packagesPath": "C:\\Users\\minions\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Contex\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minions\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\minions\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\Extra\\DotNet\\Workspace\\Albumb\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minions\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

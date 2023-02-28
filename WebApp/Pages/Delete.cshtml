@@ -1,0 +1,29 @@
+@page
+@model WebApp.Pages.DeleteModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using McRobbie.Com
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WebApp</title>
+    <style>
+        table,
+        td,
+        th {
+            border: thin black solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>@Model.Heading</h1>
+    <p>AlbumId: @Model.delRecord.AlbumId</p>
+    <p>Title: @Model.delRecord.Title</p>
+    <p>ArtistId: @Model.delRecord.ArtistId</p>
+
+</body>
+
+</html>

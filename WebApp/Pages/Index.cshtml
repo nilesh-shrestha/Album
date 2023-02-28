@@ -1,0 +1,49 @@
+@page
+@model WebApp.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using McRobbie.Com
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WebApp</title>
+    <style>
+        table,
+        td,
+        th {
+            border: thin black solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>@Model.Heading</h1>
+    <table>
+        <tr>
+            <th>AlbumId</th>
+            <th>Title</th>
+            <th>ArtistId</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+        </tr>
+        @foreach (Album c in Model.albums)
+        {
+            <tr>
+                <td>@c.AlbumId</td>
+                <td>@c.Title</td>
+                <td>@c.ArtistId</td>
+                <td><a href="~/Delete?albumId=@c.AlbumId">Delete</a></td>
+                <td><a href="~/Update?albumId=@c.AlbumId">Update</a></td>
+            </tr>
+        }
+    </table>
+    <form action="~/Index" method="post">
+        <p>Title: <input type="text" name="title"></p>
+        <p>ArtistId: <input type="number" name="artistId"></p>
+        <p><input type="submit" name="submit" value="Submit"></p>
+    </form>
+</body>
+
+</html>

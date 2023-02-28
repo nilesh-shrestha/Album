@@ -1,0 +1,31 @@
+@page
+@model WebApp.Pages.UpdateModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using McRobbie.Com
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WebApp</title>
+    <style>
+        table,
+        td,
+        th {
+            border: thin black solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>@Model.Heading</h1>
+    <form action="~/Update" method="post">
+        <p>AlbumId: <input type="hidden" name="albumId" value="@Model.upRecord.AlbumId"></p>
+        <p>Title: <input type="text" name="title" value="@Model.upRecord.Title"></p>
+        <p>ArtistId: <input type="number" name="artistId" value="@Model.upRecord.ArtistId"></p>
+        <p><input type="submit" name="submit" value="Submit"></p>
+    </form>
+</body>
+
+</html>
